@@ -1,0 +1,14 @@
+db.usuario.insert({'codigo': 1, 'nombre': 'Mario', 'correo': 'mandres1@javerianacali.edu.co', 'contraseña': 'admin', 'vehiculo': {'placa': '0000', 'estado': 'out'}})
+
+db.dia.insert({
+	'picoplaca': [{
+		'digito': 0,
+		'fechaI': new Date("2017-06-01T00:00:00Z"),
+		'fechaF': new Date("2018-01-01T00:00:00Z")
+	}],
+	'estadisticas': [{
+		'hora': 7,
+		'ocupacion': 50
+	}],
+	'nombre': 'Lunes'
+})
